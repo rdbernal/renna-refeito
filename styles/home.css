@@ -1,0 +1,78 @@
+.container__one {
+  height: calc(100vh - 108.05px);
+  background: url("/images/home/container-one-mobile.png"), #193472;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container__one h1 {
+  text-transform: uppercase;
+  font-size: clamp(24px, 5vw, 45px);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  line-height: 40px;
+}
+.container__one h2 {
+  font-size: clamp(17px, 4vw, 30px);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 30px;
+}
+.container__two {
+  margin-top: 93px;
+  margin-bottom: 93px;
+  background: url("/images/home/container-two-mobile.png");
+}
+.container__two p {
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+}
+.container__two span {
+  color: #193972;
+  font-weight: 400;
+}
+.container__two a {
+  text-decoration: none;
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #193972;
+}
+.container__three {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.services__title {
+  font-size: clamp(15px, 4vw, 16px);
+  color: #5e5e5e;
+  margin-bottom: 35px;
+}
+.container__four {
+  margin-top: 93px;
+  margin-bottom: 93px;
+}
+.container__five {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.container__six {
+  margin-top: 113px;
+  margin-bottom: 113px;
+}
+.container__seven {
+  margin-top: 44px;
+}
+.container__title {
+  font-size: clamp(18px, 4vw, 22px);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #193972;
+}
