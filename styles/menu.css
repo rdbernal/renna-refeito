@@ -61,6 +61,7 @@ header nav li {
 header nav li a {
   text-decoration: none;
   color: #000000;
+  letter-spacing: 0.1em;
 }
 
 @keyframes slide__menu__items {
@@ -85,7 +86,7 @@ header nav li a {
     margin-bottom: 15px;
   }
   header nav {
-    width: 70%;
+    width: 75%;
     max-width: 569px;
     height: auto;
     position: static;

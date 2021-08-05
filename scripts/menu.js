@@ -31,17 +31,17 @@ function show__menu() {
   });
 }
 
-//Menu animation call
-burger__menu.addEventListener("click", show__menu);
-
+//Menu indicator show animation
 function showIndicator() {
   this.nextElementSibling.classList.add("active");
 }
-
+//Menu indicator hide animation
 function hideIndicator() {
   this.nextElementSibling.classList.remove("active");
 }
 
+//Menu animation call
+burger__menu.addEventListener("click", show__menu);
 //Menu indicator call
 menu__links.forEach((item) => {
   item.addEventListener("mouseenter", showIndicator);
