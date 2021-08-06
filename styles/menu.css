@@ -51,9 +51,10 @@ header nav.active {
 }
 header nav ul {
   list-style: none;
+  transform: translateY(-20%);
 }
 header nav li {
-  margin: 7vh 6vh;
+  margin: 5vh 6vh;
   display: flex;
   flex-direction: column;
   opacity: 0;
