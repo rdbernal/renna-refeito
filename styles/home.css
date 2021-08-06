@@ -273,7 +273,6 @@
   text-decoration: none;
   color: #193972;
 }
-/* ///////// */
 .container__six {
   margin-top: 113px;
   margin-bottom: 113px;
@@ -357,7 +356,6 @@
   border-radius: 15px;
   cursor: pointer;
 }
-/* ///////// */
 .container__seven {
   margin-top: 44px;
   display: flex;
@@ -470,6 +468,13 @@
   .container__six form div {
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+  }
+  #phone {
+    max-width: 245px;
+  }
+  .form__label__phone {
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 1064px) {
