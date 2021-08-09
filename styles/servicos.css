@@ -1,0 +1,89 @@
+.container__one {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 30px;
+
+  background: url("/images/servicos/container-one-mobile.png"), #2c3f6d;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #ffffff;
+}
+.container__one h2 {
+  text-transform: uppercase;
+  font-size: clamp(17px, 4vw, 30px);
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  line-height: 30px;
+}
+.container__one h1 {
+  text-transform: uppercase;
+  font-size: clamp(24px, 5vw, 45px);
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  line-height: 40px;
+}
+.container__two {
+  width: 95%;
+  max-width: 1232px;
+  margin: 69px auto;
+  background: url("/images/servicos/container-two-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 30px;
+}
+.container__two article {
+  width: 100%;
+  max-width: 590px;
+  padding: 40px 20px;
+  background: #ffffff;
+}
+.container__two article h2 {
+  font-size: clamp(18px, 4vw, 30px);
+  font-weight: 800;
+  line-height: 35px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #193972;
+  margin-bottom: 20px;
+}
+.container__two article p {
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #0d0d0d;
+  margin-bottom: 30px;
+}
+.container__two article p:last-of-type {
+  margin-bottom: 5px;
+  margin-left: 15px;
+  font-weight: 800;
+  font-size: clamp(15px, 4vw, 18px);
+  color: #0d0d0dd7;
+}
+.container__two article ul {
+  list-style-position: inside;
+  list-style: disc;
+  margin-left: 15px;
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #0d0d0d;
+}
+@media screen and (min-width: 767px) {
+  .container__one {
+    align-items: center;
+    background: url("/images/servicos/container-one-desktop.png"), #2c3f6d;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+  }
+  .container__one h2 {
+    margin-bottom: 10px;
+  }
+}
