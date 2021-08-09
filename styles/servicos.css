@@ -86,4 +86,11 @@
   .container__one h2 {
     margin-bottom: 10px;
   }
+  .container__two {
+    padding: 54px 0 54px 62px;
+    background-position: center;
+  }
+  .container__two article {
+    padding: 29px 54px 70px 54px;
+  }
 }
