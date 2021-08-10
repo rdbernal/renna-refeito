@@ -74,6 +74,107 @@
   letter-spacing: 0.05em;
   color: #0d0d0d;
 }
+.container__three {
+  width: 85%;
+  max-width: 1232px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__three h2 {
+  font-size: clamp(18px, 4vw, 22px);
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.2em;
+  color: #193972;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.produtos__ripado,
+.produtos__embutido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+.ripado__image__container,
+.embutido__image__container {
+  background: rgba(25, 57, 114, 0.8);
+  padding: 45px 20px;
+}
+.produtos__embutido {
+  flex-direction: column-reverse;
+}
+.ripado__image {
+  padding: 20px 15px;
+  background: url("/images/servicos/ripado-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+.embutido__image {
+  padding: 20px 15px;
+  background: url("/images/servicos/embutido-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+.ripado__content,
+.embutido__content {
+  margin-bottom: 50px;
+}
+.ripado__image h3,
+.embutido__image h3 {
+  font-size: clamp(16px, 4vw, 20px);
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.ripado__image p,
+.embutido__image p {
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+.ripado__content__one,
+.ripado__content__two,
+.embutido__content__one,
+.embutido__content__two {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ripado__content__one,
+.embutido__content__one {
+  margin-bottom: 30px;
+}
+.produto {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.produto img {
+  width: 100%;
+}
+.produto h4 {
+  font-size: clamp(12px, 3vw, 14px);
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5e5e5e;
+  margin-bottom: 10px;
+}
 @media screen and (min-width: 767px) {
   .container__one {
     align-items: center;
